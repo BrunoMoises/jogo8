@@ -199,10 +199,8 @@ public final class TelaJogo extends javax.swing.JFrame {
     }
 
     public void ganhou() {
-
-        inicio = estado.getEstado();
         
-        if (Arrays.equals(inicio, solucao)) {
+        if (Arrays.deepEquals(estado.getEstado(), solucao)) {
             JOptionPane.showMessageDialog(null, "Parabéns você resolveu o Puzzle!");
             gerarJogo();
         }

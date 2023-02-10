@@ -1,16 +1,35 @@
-## Introdução
-O desafio proposto foi criar o Jogo do Oito (8 puzzle) na linguagem java, aplicando programação orientada a objetos.
+# Jogo dos 8 em Java
 
-## Objetivos
+Este é um projeto de jogo dos 8 escrito em Java. O jogo consiste em mover peças em um tabuleiro 3x3 com o objetivo de colocar todas as peças em sua posição correta.
 
-Implementar um jogo de oito (não é necessário um solucionador automático do jogo).
+### Instalação
+Para jogar este jogo, você precisará ter o Java 8 ou superior instalado em seu sistema.
 
-- O limite da implementação fica a critério do candidato;
-- Recomenda-se o uso da melhores práticas de desenvolvimento;
-- Não limitamos a arquitetura ou solução.
+### Como jogar
+Clone este repositório para sua máquina local com o seguinte comando:
+~~~bash
+git clone https://github.com/BrunoMoises/jogo8.git
+~~~~
 
-- Programação Orientada aos Objetos (POO);
-- Padrões de Projetos de Software;
-- Testes Automatizados;
-- Linguagem de programação Java;
-- Evita Bad Smells e débitos tecnicos.
+Acesse a pasta do projeto:
+
+~~~bash
+cd jogo8
+~~~
+
+Compile e execute o arquivo Main.java com o seguinte comando:
+
+~~~css
+javac Main.java
+java Main
+~~~
+Siga as instruções no jogo para começar a jogar.
+
+### Contribuindo
+Se você deseja contribuir para este projeto, siga estes passos:
+
+* Faça um fork deste repositório.
+* Crie sua branch de características (`git checkout -b feature/my-new-feature`)
+* Commit suas mudanças (`git commit -am 'Add some feature'`)
+* Push para a branch (`git push origin feature/my-new-feature`)
+* Crie um novo Pull Request.
